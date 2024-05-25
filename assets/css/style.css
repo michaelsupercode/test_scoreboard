@@ -1,0 +1,68 @@
+@font-face {
+  font-family: Delicious;
+  src: url('fonts/delicious/Delicious-Roman.otf')
+  format("opentype");
+  }
+
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color:white;
+}
+
+main {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+  
+
+img {
+  width: 100%;
+  height: max-content;
+}
+
+#panel {
+  display: grid;
+  align-items: center;
+  padding: 2em;
+}
+
+.board {
+  display:flex;
+  justify-content: space-between;
+  width: 55vw;
+  margin-left: 7vw;
+  margin-top: -102vh;
+}
+
+#sOpponent {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#sHome {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.score {
+  display:flex;
+  justify-content: space-between;
+  /* gap: 50vw; */
+  width: 55vw;
+  margin-left: 4vw;
+  margin-top: -11vh;
+}
+
+footer {
+  display: grid;
+  align-items: center;
+}
+
+#btnReset {
+  color:red;
+}
