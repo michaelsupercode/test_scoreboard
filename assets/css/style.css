@@ -1,15 +1,24 @@
-@font-face {
+/* @font-face {
   font-family: Delicious;
   src: url('fonts/delicious/Delicious-Roman.otf')
   format("opentype");
-  }
+  } */
 
 * {
   border: 0;
   margin: 0;
   box-sizing: border-box;
-  color:white;
+  color:rgb(228, 7, 7);
 }
+
+/* html {
+  font-family: "jost", sans-serif;
+  font-size: "1rem";
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 1.5rem;
+  color: #2b2e34;
+} */
 
 main {
   display: grid;
@@ -34,7 +43,7 @@ img {
   justify-content: space-between;
   width: 55vw;
   margin-left: 7vw;
-  margin-top: -102vh;
+  /* margin-top: -102vh; */
 }
 
 #sOpponent {
@@ -52,10 +61,10 @@ img {
 .score {
   display:flex;
   justify-content: space-between;
-  /* gap: 50vw; */
+  height: 50vw;
   width: 55vw;
   margin-left: 4vw;
-  margin-top: -11vh;
+  margin-top: 20vh;
 }
 
 footer {
